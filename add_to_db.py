@@ -7,7 +7,7 @@ import sqlite3
 #     # top.pack()
 
 #added r in the below line so that we can convert the text path into a raw string
-conn = sqlite3.connect(r"C:\Users\401rg\Documents\Bill Management Software Python\Database\store.db")
+conn = sqlite3.connect(r"Enter your path here")
 c = conn.cursor()  #made so that we can move around
 
 result = c.execute("Select Max(id) from inventory")
