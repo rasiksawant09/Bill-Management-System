@@ -9,7 +9,7 @@ import random
 # from add_to_db import myWindow
 
 def add_to_db():
-    conn = sqlite3.connect(r"C:\Users\RASIK\Documents\Bill Management Software Python\Database\store.db")
+    conn = sqlite3.connect(r"Enter your path here store.db")
     c = conn.cursor()  #made so that we can move around
 
     result = c.execute("Select Max(id) from inventory")
@@ -295,7 +295,7 @@ def update():
     root2.mainloop()
 
 def main():
-    conn = sqlite3.connect(r"C:\Users\RASIK\Documents\Bill Management Software Python\Database\store.db")
+    conn = sqlite3.connect(r"Enter store.db path here")
     c = conn.cursor()
 
     #date
