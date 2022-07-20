@@ -3,7 +3,7 @@ import tkinter.messagebox
 import sqlite3
 
 #added r in the below line so that we can convert the text path into a raw string
-conn = sqlite3.connect(r"C:\Users\RASIK\Documents\Bill Management Software Python\Database\store.db")
+conn = sqlite3.connect(r"Enter store.db path here")
 c = conn.cursor()  #made so that we can move around
 
 result = c.execute("Select Max(id) from inventory")
