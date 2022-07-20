@@ -7,7 +7,7 @@ import math
 import os
 import random
 
-conn = sqlite3.connect(r"C:\Users\RASIK\Documents\Bill Management Software Python\Database\store.db")
+conn = sqlite3.connect(r"Enter your Path here")
 c = conn.cursor()
 
 #date
